@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <title></title>
+    <script type="text/javascript" src="static/js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="static/js/bootstrap.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h2>Choose Courses</h2>
+      
+      <div class="col-md 4 text-center">
+	<button type="button" id="add_course" class="btn btn-primary">Add</button>
+	<button type="button" id="delete_course" class="btn btn-primary">Delete</button>
+      </div>
+      <p></p>
+
+      <div id="chosen_courses"></div>
+
+      <div class="col-md 4 text-center">
+	<button type="button" id="find_sections" class="btn btn-primary">Find Sections</button>
+      </div>
+      <p></p>
+      
+      <!--<div class="col-md 4 text-center" id="graphic"></div>-->
+      
+    </div>
+    
+    <div id="graphic"></div>
+    
+    <script type="text/javascript" src="static/Data/courses.json"></script>
+    <script type="text/javascript" src="static/Data/course_list.json"></script>
+    <script type="text/javascript" src="static/js/index.js"></script>
+    
+  </body>
+</html>
